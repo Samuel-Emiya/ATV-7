@@ -2,6 +2,7 @@ import { useState } from "react"
 
 export function App() {
   const [numero, setNumero] = useState(10)
+  const [nome, setNome] = useState()
 
   function handleAumentar() {
     setNumero(numero + 1)
